@@ -1,0 +1,3 @@
+# PHP Silent Array Key Handling Bug
+
+This repository demonstrates a common yet subtle bug in PHP related to accessing array elements with non-existent keys.  PHP silently returns `NULL` when you try to access a key that doesn't exist, leading to potential errors if not handled properly. The code in `bug.php` showcases this issue. The solution in `bugSolution.php` provides an improved version with explicit null checks.
